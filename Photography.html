@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Photography — Juan Perez</title>
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">JP</a>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="photography.html">Photography</a></li>
+          <li><a href="design.html">Design</a></li>
+          <li><a href="videography.html">Videography</a></li>
+          <li><a href="contact.html" class="btn btn--primary">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1>Photography</h1>
+      <p>Editorial portraits, events, and creative shoots.</p>
+
+      <div class="gallery">
+        <img src="assets/work1.jpg" alt="Automotive Poster" class="gallery-thumb" />
+        <img src="assets/work3.jpg" alt="Studio Portraits" class="gallery-thumb" />
+        <img src="assets/work5.jpg" alt="Outdoor Portrait" class="gallery-thumb" />
+        <img src="assets/work6.jpg" alt="Fashion Editorial" class="gallery-thumb" />
+      </div>
+    </div>
+  </main>
+
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" />
+    <p id="lightbox-caption"></p>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Juan Perez. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
