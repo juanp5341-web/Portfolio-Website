@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Design — Juan Perez</title>
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">JP</a>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="photography.html">Photography</a></li>
+          <li><a href="design.html">Design</a></li>
+          <li><a href="videography.html">Videography</a></li>
+          <li><a href="contact.html" class="btn btn--primary">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1>Design</h1>
+      <p>Editorial layouts, branding visuals, and creative design work.</p>
+
+      <div class="gallery">
+        <img src="assets/work2.jpg" alt="Magazine Editorial" class="gallery-thumb" />
+        <img src="assets/work7.jpg" alt="Branding Mockup" class="gallery-thumb" />
+        <img src="assets/work8.jpg" alt="Poster Design" class="gallery-thumb" />
+      </div>
+    </div>
+  </main>
+
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" />
+    <p id="lightbox-caption"></p>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Juan Perez. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
