@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Juan Perez</title>
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">JP</a>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="photography.html">Photography</a></li>
+          <li><a href="design.html">Design</a></li>
+          <li><a href="videography.html">Videography</a></li>
+          <li><a href="contact.html" class="btn btn--primary">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container contact__grid">
+      <div>
+        <h1>Contact Me</h1>
+        <p>Fill out the form or reach me directly.</p>
+        <ul class="contact__list">
+          <li><strong>Email:</strong> <a href="mailto:jayssignaturedesign@outlook.com">jayssignaturedesign@outlook.com</a></li>
+          <li><strong>Instagram:</strong> <a href="https://instagram.com/jayssignaturedesign" target="_blank">@jayssignaturedesign</a></li>
+          <li><strong>Location:</strong> Houston, TX</li>
+        </ul>
+      </div>
+
+      <form class="form" id="contactForm" novalidate>
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" required autocomplete="name" />
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" required autocomplete="email" />
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button type="submit" class="btn btn--primary">Send Message</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Juan Perez. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
